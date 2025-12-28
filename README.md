@@ -52,7 +52,8 @@ values
   )
 ```
 
-### Users Table
+### Output
+#### Users Table
 | user_id | name    | email               | phone      | role     |
 | :------ | :------ | :------------------ | :--------- | :------- |
 | 1       | Alice   | alice@example.com   | 1234567890 | Customer |
@@ -105,7 +106,8 @@ values
   )
 ```
 
-### Vehicles Table
+### Output
+#### Vehicles Table
 | vehicle_id | name           | type  | model | registration_number | rental_price | status      |
 | :--------- | :------------- | :---- | :---- | :------------------ | :----------- | :---------- |
 | 1          | Toyota Corolla | car   | 2022  | ABC-123             | 50           | available   |
@@ -158,7 +160,8 @@ values
   )
 ```
 
-### Bookings Table
+### Output
+#### Bookings Table
 | booking_id | user_id | vehicle_id | start_date | end_date   | status    | total_cost |
 | :--------- | :------ | :--------- | :--------- | :--------- | :-------- | :--------- |
 | 1          | 1       | 2          | 2023-10-01 | 2023-10-05 | completed | 240        |
@@ -214,7 +217,7 @@ where
   );
 ```
 
-**Expected Output**:
+**Output**:
 | vehicle_id | name       | type  | model | registration_number | rental_price | status      |
 | :--------- | :--------- | :---- | :---- | :------------------ | :----------- | :---------- |
 | 3          | Yamaha R15 | bike  | 2023  | GHI-789             | 30           | available   |
@@ -262,9 +265,9 @@ having
 | :----------- | :------------- |
 | Honda Civic  | 3              |
 
+---
 
-
-# 👨‍💻 Author
-### Alauddin Hriday
-#### Database & Web Developer
-#### Specialized in PostgreSQL, SQL, and System Design
+## 👨‍💻 Author
+#### Alauddin Hriday
+Database & Web Developer
+Specialized in PostgreSQL, SQL, and System Design
